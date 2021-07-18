@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover-container {
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.shade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.6);
+    width: 100%;
+    height: 100vh;
+}
+
+.cover-container .shade img {
+    width: 220px;
+}
+
+.title-info {
+    font-weight: 500;
+    font-size: 1.8em;
+    margin: 1.8em;
+}
+
+.cover-container .shade div {
+    transition: all 0.3s ease;
+}
+
+.cover-container .shade div:hover {
+    transform: translateY(-5px) scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.cover-container .shade div:hover a {
+    color: black;
+    background-color: white;
+}
+
+.all-demo-link {
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    padding: 18px 50px;
+    font-size: 1.5em;
+    transition: all 0.3s ease;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 6em 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5em;
+    column-gap: 6em;
+}
+
+.cards .card {
+    transition: all 0.3s ease;
+}
+
+.cards .card:hover {
+    transform: translateY(-10px) scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.card-title {
+    font-size: 3.5em;
+    font-weight: 800;
+    margin-bottom: 1.8em;
+}
+
+.cards .card h2 {
+    font-weight: 600;
+}
+
+.cards .card img {
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3);
+    width: 650px;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #191919;
+    color: white;
+    padding: 2em;
+}
+
+.feature-title {
+    font-size: 2.5em;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    padding: 3em;
+}
+
+.feature {
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 3em;
+}
+
+.feature:hover {
+    transform: skew(2deg, 2deg);
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 30px rgba(173, 216, 230, 0.115);
+}
+
+.features .feature i {
+    font-size: 2.8em;
+    padding: 0.4em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #303030;
+    color: rgb(109, 178, 201);
+}
+
+.features .feature h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.features .feature p {
+    color: rgba(198,201,216,.75);
+    font-size: 1.4em;
+}
+
+.Purchase{
+    background-image: url(/images/1.png);
+    background-repeat: repeat;
+    padding: 150px 0;
+    background-size: 50%;
+}
+
+.purchase_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.purchase_item div {
+    transition: all 0.4s ease;
+}
+
+.purchase_item div:hover {
+    transform: translateY(-5px) scale(1.02);
+    transition: all 0.4s ease;
+}
+
+.purchase_item div:hover a {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    transition: all 0.4s ease;
+    font-weight: 600;
+}
+
+.purchase-title {
+    margin-bottom: 50px;
+}
+
+.purchase_link
+{
+    text-decoration: none;
+    padding: 20px 70px;
+    border: 3px solid #000;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    transition: all 0.3s ease;
+}
+
+.purchase_link {
+
+}
+
+footer .item
+{
+    background-color:#000000;
+    color: white;
+    padding:48px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3em;
+}
