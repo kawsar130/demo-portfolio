@@ -142,12 +142,12 @@ body {
 
 .features .feature h2 {
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 .features .feature p {
     color: rgba(198,201,216,.75);
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .Purchase{
@@ -213,7 +213,7 @@ footer .item
 @media only screen and (min-width: 824px) and (max-width: 1366px) {
 
     body {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .card-container {
