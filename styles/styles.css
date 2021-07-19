@@ -210,7 +210,12 @@ footer .item
 }
 
 /* Responsive design starts here */
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 824px) and (max-width: 1366px) {
+
+    body {
+        font-size: 0.8rem;
+    }
+
     .card-container {
         width: 100%;
     }
