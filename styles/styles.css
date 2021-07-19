@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Pacifico&display=swap');
 
 body {
     margin: 0;
@@ -27,14 +27,17 @@ body {
     height: 100vh;
 }
 
-.cover-container .shade img {
-    width: 220px;
+.cover-container .shade .logo {
+    font-size: 5em;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+
 }
 
 .title-info {
     font-weight: 500;
-    font-size: 1.8em;
-    margin: 1.8em;
+    font-size: 1.5em;
+    margin: 0 0 40px 0;
 }
 
 .cover-container .shade div {
@@ -252,7 +255,7 @@ footer .item
 @media only screen and (max-width: 823px) {
 
     .cover-container, .shade {
-        height: 90vh;
+        height: 95vh;
     }
     
     .card-container {
