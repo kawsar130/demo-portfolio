@@ -250,6 +250,10 @@ footer .item
 }
 
 @media only screen and (max-width: 823px) {
+
+    .cover-container, .shade {
+        height: 90vh;
+    }
     
     .card-container {
         margin: 2em 0;
